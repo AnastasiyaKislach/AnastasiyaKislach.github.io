@@ -1,0 +1,100 @@
+﻿@font-face {
+  font-family: 'FiraSans-Heavy';
+  src: url("../font/FiraSans-Heavy.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'FiraSans-Bold';
+  src: url("../font/FiraSans-Bold.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'FiraSans-SemiBold';
+  src: url("../font/FiraSans-SemiBold.otf") format("opentype"); }
+
+.b-page {
+  background-color: #fff;
+  /*width: 100%;*/
+  margin: 0;
+  padding: 20px;
+  font-size: 13px; }
+
+.b-page__container {
+  margin: 0 auto;
+  margin-top: 10px; }
+
+.b-head {
+  width: 70%;
+  margin: 0 auto;
+  height: 30px; }
+
+.b-head__logo {
+  float: left; }
+
+.b-head__menu {
+  float: right;
+  padding: 7px; }
+
+.b-link {
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #637F83; }
+
+.b-link_menu {
+  color: #637F83;
+  margin: 0 25px;
+  padding-top: 15px; }
+
+.b-link_menu_active {
+  color: #EB8259;
+  background: url("../Images/menu-arrow.png") no-repeat;
+  background-position: top center; }
+
+.b-splash-screen {
+  height: 520px;
+  width: 100%;
+  background: url("../Images/bcgrd.png") no-repeat;
+  background-position-x: -75px;
+  background-position-y: -20px;
+  text-align: center; }
+
+.b-splash-screen__content {
+  display: -moz-inline-box;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center; }
+
+.b-text {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 20px; }
+
+.b-text_decorated {
+  font-size: 40px;
+  vertical-align: middle;
+  margin: 10px;
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-decoration: underline; }
+
+.b-text_uppercase {
+  font-family: Microsoft Sans serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 5px;
+  line-height: 25px; }
+
+.b-splash-screen__helper {
+  display: -moz-inline-box;
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 0px; }
+
+.b-vert-arrow {
+  height: 71px;
+  background: url(../Images/round.png) no-repeat;
+  background-position: center; }
+
+.b-vert-arrow__image {
+  padding: 20px; }
+
