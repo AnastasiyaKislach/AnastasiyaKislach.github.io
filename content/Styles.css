@@ -10,6 +10,10 @@
   font-family: 'FiraSans-SemiBold';
   src: url("../font/FiraSans-SemiBold.otf") format("opentype"); }
 
+@font-face {
+  font-family: 'FiraSans-ExtraLight';
+  src: url("../font/FiraSans-ExtraLight.otf") format("opentype"); }
+
 .b-page {
   background-color: #fff;
   /*width: 100%;*/
@@ -19,11 +23,12 @@
 .b-page__container {
   margin: 0 auto;
   margin-top: 10px;
-  padding: 20px; }
+  padding: 20px 0 0; }
 
 .b-head {
   width: 70%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 20px; }
 
 .b-head__logo {
   float: left; }
@@ -51,9 +56,9 @@
   height: 520px;
   width: 100%;
   background: url("../Images/bcgrd.png") no-repeat;
-  /*background-position-x: -75px;
-    background-position-y: -20px;*/
-  background-size: cover;
+  background-position-x: -75px;
+  background-position-y: -20px;
+  /*background-size: cover;*/
   text-align: center; }
 
 .b-splash-screen__content {
@@ -97,4 +102,67 @@
 
 .b-vert-arrow__image {
   padding: 20px; }
+
+.b-categories__text {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center; }
+
+.b-title {
+  font-size: 30px;
+  color: #637F83;
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: bold; }
+
+.b-subtitle {
+  font-size: 22px;
+  color: #637F83;
+  font-family: FiraSans-ExtraLight;
+  margin: 10px; }
+
+.b-category__container {
+  background-color: #F6F6F6;
+  text-align: center;
+  display: inline-block; }
+
+.b-category {
+  width: 20%;
+  float: left;
+  padding: 37px 20px;
+  border-right: 1px solid #CFCFCF; }
+
+.b-category-image {
+  padding: 20px; }
+
+.b-category_last {
+  border: none; }
+
+.b-categories-block {
+  width: 70%;
+  margin: 0 auto;
+  /*padding: 20px;*/ }
+
+.b-category__title {
+  padding: 10px;
+  font-size: 18px;
+  color: #637F83;
+  font-family: FiraSans-SemiBold;
+  margin: 10px; }
+
+.b-category__text {
+  color: #AFAEAE;
+  font-size: 13px;
+  line-height: 20px; }
+
+.b-category__btn {
+  padding: 20px; }
+
+.b-btn {
+  border-radius: 5px;
+  border: 1px solid #637F83;
+  padding: 8px 18px;
+  background-color: #637F83;
+  color: #fff;
+  font-family: FiraSans-SemiBold;
+  letter-spacing: 1px; }
 
