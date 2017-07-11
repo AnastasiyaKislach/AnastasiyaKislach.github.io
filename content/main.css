@@ -105,6 +105,7 @@
   font-family: 'Lato-Regular';
   src: url("../font/Lato/Lato-Regular.ttf") format("truetype"); }
 
+/*$text-color: #AFAEAE;*/
 .button {
   display: inline-block;
   padding: 8px 18px;
@@ -145,6 +146,7 @@
   .button-iconic.arrow-down {
     background-image: url("../Images/arrow-down.png"); }
 
+/*$text-color: #AFAEAE;*/
 body {
   padding: 0;
   margin: 0;
@@ -182,13 +184,11 @@ a {
   font-size: 16px;
   font-family: 'SourceSansPro-Regular'; }
 
-.title-sm {
-  font-size: 26px; }
+.no-align {
+  text-align: initial;
+  padding: 0; }
 
-.text-sm {
-  color: #AFAEAE;
-  padding: 0 35px; }
-
+/*$text-color: #AFAEAE;*/
 .head {
   display: block;
   padding: 20px 0; }
@@ -248,6 +248,11 @@ a {
     border-right: 1px solid #CFCFCF;
     float: left;
     box-sizing: border-box; }
+    .categories__list .categories-list__item .c-title {
+      font-size: 26px; }
+    .categories__list .categories-list__item .c-text {
+      color: #AFAEAE;
+      padding: 0 35px; }
   .categories__list .categories-list-wrapper :last-child {
     border: none; }
   .categories__list .category-image-wrapper {
@@ -324,33 +329,130 @@ a {
 .slider__button {
   text-align: center; }
 
+/*$text-color: #AFAEAE;*/
 .portfolios {
   padding: 60px 0; }
 
-.no-align {
-  text-align: initial;
-  padding: 0; }
-
 .portfolios-item-wrapper {
-  /*display: table-row;*/
-  margin-right: -15px;
-  margin-left: -15px;
-  margin-bottom: 30px; }
+  display: table-row; }
 
 .portfolios__item {
   width: 47%;
-  float: left;
-  padding-right: 15px;
-  padding-left: 15px; }
+  display: table-cell;
+  padding: 0 15px 30px; }
+  .portfolios__item .portfolio-image {
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    width: 100px; }
+  .portfolios__item .foto {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px; }
+  .portfolios__item .portfolio-title {
+    padding-bottom: 10px; }
+  .portfolios__item .p-title {
+    font-size: 26px; }
+  .portfolios__item .p-text {
+    color: #AFAEAE;
+    overflow: hidden;
+    line-height: 25px; }
+  .portfolios__item .link_more {
+    color: #E4551D;
+    text-decoration: none; }
 
-.portfolio-image {
-  float: left;
-  padding-right: 30px;
-  width: 100px; }
+/*$text-color: #AFAEAE;*/
+.sign-up {
+  background: #637F83; }
 
-.foto {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 6px; }
+.sign-up__header {
+  padding: 40px;
+  border-bottom: 2px solid #597276; }
+  .sign-up__header .s-title, .sign-up__header .s-sub-title {
+    color: #fff; }
+
+.sign-up__content {
+  display: table-row;
+  padding: 40px; }
+
+.sign-up-wrapper {
+  width: 47%;
+  display: table-cell;
+  padding: 40px 0 50px;
+  vertical-align: top; }
+
+.sign-up__introduction {
+  margin-bottom: 30px; }
+  .sign-up__introduction .message-img {
+    float: left;
+    padding-right: 20px; }
+  .sign-up__introduction .petition-text {
+    color: #fff;
+    font-size: 14px; }
+  .sign-up__introduction .petition-title {
+    color: #fff;
+    font-size: 18px; }
+
+.sign-up__form .input {
+  background-color: #597276;
+  border: none;
+  width: 80%;
+  border-radius: 3px;
+  line-height: 37px;
+  margin-right: 10px; }
+
+.sign-up__form .button-third {
+  background-color: #597276;
+  padding: 10px 18px; }
+
+.sign-up__twit-message {
+  background: #597276;
+  padding: 25px;
+  border-radius: 5px; }
+  .sign-up__twit-message .delivery-message-image {
+    float: left;
+    padding-right: 25px;
+    padding-top: 5px; }
+  .sign-up__twit-message .delivery-message-text {
+    overflow: hidden; }
+    .sign-up__twit-message .delivery-message-text .d-text {
+      color: #B5C7C9;
+      font-size: 15px;
+      line-height: 20px; }
+
+/*$text-color: #AFAEAE;*/
+.follow {
+  background: #fff; }
+
+.followers__list {
+  padding: 30px 0; }
+
+.follow-item {
+  width: 33.33333%;
+  float: left; }
+
+.follower-image-wrapper {
+  float: left;
+  padding: 20px 20px 20px 0; }
+
+.follower-text-wrapper {
+  padding: 30px; }
+
+.follower__text .f-text {
+  font-size: 14px;
+  color: #AFAEAE; }
+
+.follower__text .f-title {
+  font-size: 18px; }
+
+/*$text-color: #AFAEAE;*/
+.footer {
+  background: #637F83; }
+
+.footer__copyright {
+  padding: 35px; }
+  .footer__copyright .f-text {
+    color: #fff;
+    font-size: 14px; }
 
