@@ -3,21 +3,18 @@
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <!--<link rel="stylesheet" type="text/css" href="content/Styles.css">-->
-    <link href="content/main.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="/content/css/main.css" rel="stylesheet" />
 </head>
 <body>
-
     <!-- START HEADER -->
-    <header class="head">
+    <header class="header">
         <div class="container">
-            <div class="head__logo">
+            <div class="header__logo">
                 <a class="logo" href="#">Site Name</a>
             </div>
-            <nav class="head__navbar">
+            <nav class="header__navbar">
                 <ul class="menu">
-                    <li class="menu__item active">
+                    <li class="menu__item menu__item--active">
                         <a href="#">HOME</a>
                     </li>
                     <li class="menu__item">
@@ -37,25 +34,22 @@
                     </li>
                 </ul>
             </nav>
-            <div class="clearfix"></div>
         </div>
     </header>
     <!-- END HEADER -->
     <!-- START SPLASH SCREEN -->
     <section class="splash-screen">
         <div class="container">
-            <div class="splash-screen-content">
-                <div class="title splash-screen__title">
-                    Lorem ipsum laro
-                    dolore sit amet vivamus
-                </div>
-                <div class="sub-title splash-screen__text">
-                    Lorem ipsum laro sit amet
-                    dolore sit ame
-                </div>
-                <div class="splash-screen__arrow-wrapper">
-                    <a href="#" class="button-iconic button-secondary arrow-down"></a>
-                </div>
+            <div class="title splash-screen__title">
+                Lorem ipsum laro
+                dolore sit amet vivamus
+            </div>
+            <div class="sub-title splash-screen__text">
+                Lorem ipsum laro sit amet
+                dolore sit ame
+            </div>
+            <div class="splash-screen__arrow">
+                <a href="#" class="button-iconic button-secondary button-iconic-arrow-down"></a>
             </div>
         </div>
     </section>
@@ -74,87 +68,85 @@
         </div>
         <div class="categories__list">
             <div class="container">
-                <div class="categories-list-wrapper">
-                    <div class="categories-list__item">
-                        <div class="category-image-wrapper">
+                <div class="categories-inner-list">
+                    <div class="category">
+                        <div class="category__image">
                             <img src="Images/pc.png" />
                         </div>
-                        <div class="category-title-wrapper">
-                            <div class="title c-title">
+                        <div class="category__title">
+                            <div class="title">
                                 Nunc dignissim
                             </div>
                         </div>
-                        <div class="category-text-wrapper">
-                            <div class="text c-text">
+                        <div class="category__text">
+                            <div class="text">
                                 Praesent dapibus, neque id curs
                                 us faucibus, tortor neque egestas augue, eu vulputate magn
                             </div>
                         </div>
-                        <div class="category-btn-wrapper">
+                        <div class="category__button">
                             <a href="#" class="button button-primary">More</a>
                         </div>
                     </div>
-                    <div class="categories-list__item">
-                        <div class="category-image-wrapper">
+                    <div class="category">
+                        <div class="category__image">
                             <img src="Images/flask.png" />
                         </div>
-                        <div class="category-title-wrapper">
-                            <div class="title c-title">
+                        <div class="category__title">
+                            <div class="title">
                                 Aliquam tinci
                             </div>
                         </div>
-                        <div class="category-text-wrapper">
-                            <div class="text c-text">
+                        <div class="category__text">
+                            <div class="text">
                                 Donec consectetuer ligula v
                                 tate sem tristique cursus. Nam nulla quam, gravida info
                             </div>
                         </div>
-                        <div class="category-btn-wrapper">
+                        <div class="category__button">
                             <a href="#" class="button button-primary">More</a>
                         </div>
                     </div>
-                    <div class="categories-list__item">
-                        <div class="category-image-wrapper">
+                    <div class="category">
+                        <div class="category__image">
                             <img src="Images/gears.png" />
                         </div>
-                        <div class="category-title-wrapper">
-                            <div class="title c-title ">
+                        <div class="category__title">
+                            <div class="title">
                                 Vestibu auctor
                             </div>
                         </div>
-                        <div class="category-text-wrapper">
-                            <div class="text c-text">
+                        <div class="category__text">
+                            <div class="text">
                                 Jorbi rbi est est, blandit sit amet,
                                 sagittis vel, euismod vel, velit. Pellentesque egestas sem.
                             </div>
-                            <div class="category-btn-wrapper">
+                            <div class="category__button">
                                 <a href="#" class="button button-primary">More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="categories-list__item">
-                        <div class="category-image-wrapper">
+                    <div class="category">
+                        <div class="category__image">
                             <img src="Images/loudspeaker.png" />
                         </div>
-                        <div class="category-title-wrapper">
-                            <div class="title c-title ">
+                        <div class="category__title">
+                            <div class="title">
                                 Civamus vesti
                             </div>
                         </div>
-                        <div class="category-text-wrapper">
-                            <div class="text c-text">
+                        <div class="category__text">
+                            <div class="text">
                                 Morbi est est, blandit sit amet,
                                 sagittis vel, euismod vel, velit. Pellentesque egestas sem.
                             </div>
                         </div>
-                        <div class="category-btn-wrapper">
+                        <div class="category__button">
                             <a href="#" class="button button-primary">More</a>
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div class="clearfix"></div>
         </div>
     </section>
     <!-- END CATEGORIES -->
@@ -171,40 +163,38 @@
                     </div>
                 </div>
                 <div class="slider__content">
-                    <div class="slider-arrows">
-                        <div class="line line-left">
-                            <img src="Images/line1.png" class="line-img" />
+                    <div class="slider-nav">
+                        <div class="slider__line slider__line--left">
+                            <img src="Images/line1.png" class="line__img" />
                         </div>
-                        <div class="arrow arrow-left">
+                        <div class="slider__arrow slider__arrow--left">
                             <img src="Images/arrow-left.png" />
                         </div>
-                        <div class="arrow arrow-right">
+                        <div class="slider__arrow slider__arrow--right">
                             <img src="Images/arrow-right.png" />
                         </div>
-                        <div class="line line-right">
-                            <img src="Images/line1.png" class="line-img" />
+                        <div class="slider__line slider__line--right">
+                            <img src="Images/line1.png" class="line__img" />
                         </div>
                     </div>
                     <div class="slider-list-wrapper">
-                        <ul class="slider-list">
-                            <li class="slider-list__item">
-                                <img src="Images/slider1.png" class="slide-image" />
-                            </li>
-                            <li class="slider-list__item">
-                                <img src="Images/slider2.png" class="slide-image" />
-                            </li>
-                            <li class="slider-list__item">
-                                <img src="Images/slider3.png" class="slide-image" />
-                            </li>
-                            <li class="slider-list__item">
-                                <img src="Images/slider4.png" class="slide-image" />
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="slider__button">
-                        <div class="slider-button-wrapper">
-                            <a href="#" class="button button-secondary button-lg">View Portfolio</a>
+                        <div class="slider-list">
+                            <div class="slider-list__item">
+                                <img src="Images/slider1.png" />
+                            </div>
+                            <div class="slider-list__item">
+                                <img src="Images/slider2.png" />
+                            </div>
+                            <div class="slider-list__item">
+                                <img src="Images/slider3.png" />
+                            </div>
+                            <div class="slider-list__item">
+                                <img src="Images/slider4.png" />
+                            </div>
                         </div>
+                    </div>
+                    <div class="slider-button-wrapper">
+                        <a href="#" class="button button-secondary button-lg">View Portfolio</a>
                     </div>
                 </div>
             </div>
@@ -214,61 +204,70 @@
     <!-- START PORTFOLIO -->
     <section class="portfolios">
         <div class="container">
-            <div class="portfolios__list">
-                <div class="portfolios-item-wrapper">
-                    <div class="portfolios__item">
-                        <div class="portfolio-image">
-                            <img src="Images/men1.png" class="foto" />
-                        </div>
-                        <div class="portfolio-title">
-                            <div class="title p-title no-align">
-                                Integer vitae libero
-                            </div>
-                        </div>
-                        <div class="portfolio-text">
-                            <div class="text p-text no-align">
-                                Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt lorem ipsuk dolor
-                                <a class="b-link_more" href="#"> + more</a>
-                            </div>
-                        </div>
-
+            <div class="portfolios-item-wrapper">
+                <div class="portfolios__item">
+                    <div class="portfolio-image-wrapper">
+                        <img src="Images/men1.png" class="portfolio__image" />
                     </div>
-                    <div class="portfolios__item">
-                        <div class="portfolio-image">
-                            <img src="Images/woman1.png" class="foto" />
+                    <div class="portfolio-title-wrapper">
+                        <div class="title no-align">
+                            Integer vitae libero
                         </div>
-                        <div class="title p-title no-align">
-                            Vestibulum commodo
-                        </div>
-                        <div class="text p-text no-align">
-                            Lorem dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor
-                            <a class="b-link_more" href="#"> + more</a>
+                    </div>
+                    <div class="portfolio-text-wrapper">
+                        <div class="text">
+                            Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt lorem ipsuk dolor
+                            <a class="portfolio__link" href="#"> + more</a>
                         </div>
                     </div>
                 </div>
-                <div class="portfolios-item-wrapper">
-                    <div class="portfolios__item">
-                        <div class="portfolio-image">
-                            <img src="Images/woman2.png" class="foto" />
-                        </div>
-                        <div class="title p-title no-align">
-                            Fusce pellentesque
-                        </div>
-                        <div class="text p-text no-align">
-                            Cations t dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
-                            <a class="b-link_more" href="#"> + more</a>
+                <div class="portfolios__item">
+                    <div class="portfolio-image-wrapper">
+                        <img src="Images/woman1.png" class="portfolio__image" />
+                    </div>
+                    <div class="portfolio-title-wrapper">
+                        <div class="title no-align">
+                            Vestibulum commodo
                         </div>
                     </div>
-                    <div class="portfolios__item">
-                        <div class="portfolio-image">
-                            <img src="Images/men2.png" class="foto" />
+                    <div class="portfolio-text-wrapper">
+                        <div class="text no-align">
+                            Lorem dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor
+                            <a class="portfolio__link" href="#"> + more</a>
                         </div>
-                        <div class="title p-title no-align">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolios-item-wrapper">
+                <div class="portfolios__item">
+                    <div class="portfolio-image-wrapper">
+                        <img src="Images/woman2.png" class="portfolio__image" />
+                    </div>
+                    <div class="portfolio-title-wrapper">
+                        <div class="title no-align">
+                            Fusce pellentesque
+                        </div>
+                    </div>
+                    <div class="portfolio-text-wrapper">
+                        <div class="text">
+                            Cations t dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                            <a class="portfolio__link" href="#"> + more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolios__item">
+                    <div class="portfolio-image-wrapper">
+                        <img src="Images/men2.png" class="portfolio__image" />
+                    </div>
+                    <div class="portfolio-title-wrapper">
+                        <div class="title no-align">
                             Donec quis dui dolor
                         </div>
-                        <div class="text p-text no-align">
+                    </div>
+                    <div class="portfolio-text-wrapper">
+                        <div class="text">
                             Sumitris dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
-                            <a class="link_more" href="#"> + more</a>
+                            <a class="portfolio__link" href="#"> + more</a>
                         </div>
                     </div>
                 </div>
@@ -280,46 +279,42 @@
     <section class="sign-up">
         <div class="container">
             <div class="sign-up__header">
-                <div class="title s-title">
+                <div class="title">
                     Cras ornare tristique elit
                 </div>
-                <div class="sub-title s-sub-title">
+                <div class="sub-title">
                     Donec odio uisque volutpat mattis eros ullam malesuada erat ut turpis.
                 </div>
             </div>
             <div class="sign-up__content">
                 <div class="sign-up-wrapper">
                     <div class="sign-up__introduction">
-                        <div class="message-img">
-                            <img src="Images/envelop.png" class="b-img" />
+                        <div class="introduction-img">
+                            <img src="Images/envelop.png" />
                         </div>
-                        <div class="message__petition">
-                            <div class="title petition-title no-align">
+                        <div class="introduction__petition">
+                            <div class="title no-align">
                                 Subscribe Our Newsletter
                             </div>
-                            <div class="text petition-text no-align">
+                            <div class="text">
                                 via email on how to grow your business online
                             </div>
                         </div>
                     </div>
-                    <div class="sign-up__form">
-                        <form>
-                            <input type="text" class="input" />
-                            <input type="submit" value="Sign up" class="button button-third" />
-                        </form>
-                    </div>
+                    <form class="sign-up__form">
+                        <input type="text" class="sign-up__input" />
+                        <input type="submit" value="Sign up" class="button button-third" />
+                    </form>
                 </div>
                 <div class="sign-up-wrapper">
-                    <div class="twit-message-content">
-                        <div class="sign-up__twit-message">
-                            <div class="delivery-message-image">
-                                <img src="Images/twitter.png" />
-                            </div>
-                            <div class="delivery-message-text">
-                                <div class="text d-text no-align">
-                                    Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat
-                                    <span>@johndoe</span>
-                                </div>
+                    <div class="sign-up__twit-message">
+                        <div class="twit-message__image">
+                            <img src="Images/twitter.png" />
+                        </div>
+                        <div class="twit-message__text">
+                            <div class="text">
+                                Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat
+                                <span>@johndoe</span>
                             </div>
                         </div>
                     </div>
@@ -332,59 +327,52 @@
     <section class="follow">
         <div class="container">
             <div class="follow__list">
-                <div class="follow-item">
-                    <div class="follower-image-wrapper">
-                        <div class="follower__image">
-                            <a href="#" class="button-iconic button-secondary facebook"></a>
-                        </div>
+                <div class="follow__item">
+                    <div class="follow-image-wrapper">
+                        <a href="#" class="button-iconic button-secondary facebook"></a>
                     </div>
-                    <div class="follower-text-wrapper">
-                        <div class="follower__text">
-                            <div class="title f-title no-align">
+                    <div class="follow-text-wrapper">
+                        <div class="follow__text">
+                            <div class="title no-align">
                                 Follow us onFacebook
                             </div>
-                            <div class="text f-text no-align">
+                            <div class="text">
                                 Faucibus toroot menuts
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="follow-item">
-                    <div class="follower-image-wrapper">
-                        <div class="follower__image">
-                            <a href="#" class="button-iconic button-secondary google"></a>
-                        </div>
+                <div class="follow__item">
+                    <div class="follow-image-wrapper">
+                        <a href="#" class="button-iconic button-secondary button-iconic-google"></a>
                     </div>
-                    <div class="follower-text-wrapper">
-                        <div class="follower__text">
-                            <div class="title f-title no-align">
+                    <div class="follow-text-wrapper">
+                        <div class="follow__text">
+                            <div class="title no-align">
                                 Follow us on Google +
                             </div>
-                            <div class="text f-text no-align">
+                            <div class="text">
                                 Faucibus toroot menuts
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="follow-item">
-                    <div class="follower-image-wrapper">
-                        <div class="follower__image">
-                            <a href="#" class="button-iconic button-secondary linkedIn"></a>
-                        </div>
+                <div class="follow__item">
+                    <div class="follow-image-wrapper">
+                        <a href="#" class="button-iconic button-secondary button-iconic-linkedIn"></a>
                     </div>
-                    <div class="follower-text-wrapper">
-                        <div class="follower__text">
-                            <div class="title f-title no-align">
+                    <div class="follow-text-wrapper">
+                        <div class="follow__text">
+                            <div class="title no-align">
                                 Follow us on LInkedIn
                             </div>
-                            <div class="text f-text no-align">
+                            <div class="text">
                                 Faucibus toroot menuts
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="clearfix"></div>
         </div>
     </section>
     <!-- END FOLLOW BLOCK -->
@@ -392,12 +380,13 @@
     <section class="footer">
         <div class="container">
             <div class="footer__copyright">
-                <div class="text f-text">
+                <div class="text">
                     Designed by: www.alltemplateneeds.com / Images from: www.wallpaperswide.com / www.photorack.net Copyright(c) website name.
                 </div>
             </div>
         </div>
     </section>
+    <!-- END FOOTER -->
 </body>
 </html>
 
